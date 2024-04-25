@@ -1,22 +1,23 @@
 # verdeterre
 
+```package
+servomoteurs
+```
+
 ## Étape 1
 
-Ajoute 
+Supprime le bloc ``||basic:toujours||`` et ``||basic:au démarrage||``.
 
-``||input:lorsque le bouton A est pressé||``
-
-
+Ajoute le bloc ``||input:lorsque le bouton A est pressé||``.
 
 ## Étape 2
 
+Ajoute le bloc ``||loops:faire répéter X fois||`` à l'intérieur du bloc ``||input:lorsque le bouton A est pressé||``.
 
-
+Modifier le nombre pour faire répéter 10 fois. 
 
 ## Étape 3 
 
-Ajoute le bloc ``||basic:montrer LEDs||`` dans le bloc ``||basic:au démarrage||``.
-
-Dessine une flèche vers le bas dans le bloc ``||basic:montrer LEDs||``.
+Dans le bloc ``||loops:faire répéter X fois||``, ajouter le bloc ``||servomoteurs:règle l'angle du servomoteur||``
 
 ## Étape 4
