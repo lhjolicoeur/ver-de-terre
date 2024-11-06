@@ -7,7 +7,7 @@ input.onButtonPressed(Button.A, function () {
             # . . . #
             . # # # .
             `)
-        servos.P0.setAngle(0)
+        pins.servoWritePin(AnalogPin.P0, 0)
         basic.pause(1000)
         basic.showLeds(`
             # . . . #
@@ -16,7 +16,7 @@ input.onButtonPressed(Button.A, function () {
             . # . # .
             # . . . #
             `)
-        servos.P0.setAngle(180)
+        pins.servoWritePin(AnalogPin.P0, 180)
         basic.pause(1000)
     }
 })

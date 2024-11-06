@@ -1,13 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="$]tp$R,usZH!W=,+iKfu" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id=".q$b|EB@+`ex70YHk%p+"><value name="TIMES"><shadow type="math_whole_number" id="d$J$t/I2q[Pl/tq08JTO"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="device_show_leds" id="c_`1X]GQO}9n.)rJJL-`"><field name="LEDS">`
-        . . . . . 
-        . # . # . 
-        . . . . . 
-        # . . . # 
-        . # # # .
-        `</field><next><block type="servoservosetangle" id="Ky}YAWy7HQTKty27x]*j"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="4rN:UZELmrAcI0Nhne[C"><field name="angle">0</field></shadow></value><next><block type="device_pause" id="OJ-7CH}~P%De@zI,B{Ct"><value name="pause"><shadow type="timePicker" id="]Yt/[f4B3%8jtFM1h7tn"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="GB969x3X(jjC.#.4+W_`"><field name="LEDS">`
-        # . . . # 
-        . # . # . 
-        . . # . . 
-        . # . # . 
-        # . . . #
-        `</field><next><block type="servoservosetangle" id="*rM@v74G3i`Y(csE~ay%"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="b(.%v)X]EtRhi(A)YR|K"><field name="angle">180</field></shadow></value><next><block type="device_pause" id="V.#,5{!/O!Z(H9;P28bH"><value name="pause"><shadow type="timePicker" id="L7tS#)sgdGbxdl:%j6,^"><field name="ms">1000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" x="10" y="10"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext"><value name="TIMES"><shadow type="math_whole_number"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="device_show_leds"><field name="LEDS">`
+        .....
+.#.#.
+.....
+#...#
+.###.
+        `</field><next><block type="device_set_servo_pin"><value name="name"><shadow type="analog_pin_shadow"><field name="pin">AnalogPin.P0</field></shadow></value><value name="value"><shadow type="math_number_minmax"><mutation min="0" max="180" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_pause"><value name="pause"><shadow type="timePicker"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds"><field name="LEDS">`
+        #...#
+.#.#.
+..#..
+.#.#.
+#...#
+        `</field><next><block type="device_set_servo_pin"><value name="name"><shadow type="analog_pin_shadow"><field name="pin">AnalogPin.P0</field></shadow></value><value name="value"><shadow type="math_number_minmax"><mutation min="0" max="180" precision="0"></mutation><field name="SLIDER">180</field></shadow></value><next><block type="device_pause"><value name="pause"><shadow type="timePicker"><field name="ms">1000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>

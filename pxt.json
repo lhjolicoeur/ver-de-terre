@@ -1,5 +1,5 @@
 {
-    "name": "Ver de terre",
+    "name": "Ver de terre - Copier",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -18,7 +18,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "6.0.25",
+        "target": "7.0.51",
         "targetId": "microbit"
     },
     "supportedTargets": [
